@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web API Demo</title>
+</head>
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+
+<body>    
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Length</td>
+        </tr>
+        <tbody id="employeesContainer">
+
+        </tbody>
+    </table>
+    <script type="text/javascript">
+        $(function () {
+            console.log("Hello");
+            $.ajax({
+                url: 'http://localhost:4968/api/videos',
+                type: 'GET',
+                dataType: 'json',
+                success: function (employees, textStatus, xhr) {
+                    var employeesHtml = "";
+                    console.log(employees);
+                    for (var i = 0; i < employees.length; i++)
+                    {                        
+                        employeesHtml += "<tr><td>" + employees[i].Id + "</td><td>" + employees[i].Name + "</td><td>" + employees[i].Length + "</td></tr>";
+                    }
+                    $("#employeesContainer").append(employeesHtml);
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                    console.log('Error in Database');
+                }
+            });
+        })
+</script>
+</body>
+</html>
