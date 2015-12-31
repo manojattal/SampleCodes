@@ -1,0 +1,25 @@
+﻿@model eManager.Domain.Department
+
+<h2>@Model.Name</h2>
+
+@Html.ActionLink("Create Employee", "create", "employee",new {DepartmentId = Model.Id}, null)
+
+<table>
+    <tr>    
+        <th>Employee Id</th>
+        <th>Employee Name</th>    
+    </tr>
+    <tbody>
+        @foreach(var emp in Model.Employees)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@

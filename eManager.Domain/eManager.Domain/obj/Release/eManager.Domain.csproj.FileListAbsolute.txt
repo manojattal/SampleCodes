@@ -1,0 +1,5 @@
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\bin\Release\eManager.Domain.dll
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\bin\Release\eManager.Domain.pdb
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\obj\Release\eManager.Domain.csprojResolveAssemblyReference.cache
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\obj\Release\eManager.Domain.dll
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\obj\Release\eManager.Domain.pdb

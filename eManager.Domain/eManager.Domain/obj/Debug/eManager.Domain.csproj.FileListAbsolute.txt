@@ -1,0 +1,4 @@
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\bin\Debug\eManager.Domain.dll
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\bin\Debug\eManager.Domain.pdb
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\obj\Debug\eManager.Domain.dll
+C:\Users\manoj.attal\documents\visual studio 2012\Projects\eManager.Domain\eManager.Domain\obj\Debug\eManager.Domain.pdb
